@@ -1,0 +1,26 @@
+.Result {
+  background: var(--color-base);
+  width: 100%;
+  padding: 19px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Result__password {
+  font-size: 32px;
+  line-height: 42px;
+  min-height: 42px;
+}
+
+.Result__copy {
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.Result__copy:hover svg path {
+  fill: var(--color-light);
+  transition: fill 0.3s ease;
+}
